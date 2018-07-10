@@ -1,7 +1,9 @@
 # CSS Styling Code Along
 
 ## Objectives
-p
+p{
+  color:green;
+}
 1. Review linking an external CSS file.
 2. Review writing selectors.
 3. Styling text content.

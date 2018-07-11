@@ -1,0 +1,14 @@
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+figcaption{
+    font-weight: normal 0.75em Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+}
+
+.milk-text{
+    font: bold 2.6em  'Times New Roman', Times, serif;
+    text-shadow: 0 2px 3px black;
+}

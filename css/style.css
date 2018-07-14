@@ -1,0 +1,47 @@
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Shadows+Into+Light+Two');
+/* 
+font-family: 'Oswald', sans-serif;
+font-family: 'Shadows Into Light Two', cursive; 
+*/
+
+
+p {
+font: normal 1em/1.5em 'Oswald', sans-serif;
+}
+
+figcaption {
+    
+    font: normal 0.75em/1.5em 'Shadows Into Light Two', cursive; 
+    color: #777;
+    text-align: left;
+}
+
+.shadow{
+    text-shadow: 0 4px 3px black;
+}
+
+
+#logo {background-color: white;
+}
+
+
+ #logo h1 {
+    font-family: 'Oswald', sans-serif;
+ }
+ #logo h2 
+ {
+    font-family: 'Shadows Into Light Two', cursive;
+ }
+
+ /*Pseudo selector*/
+ #details a:link, a:visited {
+     color: black;
+     text-decoration: none}
+
+
+#details a:hover {color: black;
+text-decoration: underline;
+background-color: red;}
+#details a:active {color: yellow} 

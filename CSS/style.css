@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+
+}
+figcaption{
+    font: normal 0.75em/1.5em 'Indie Flower', cursive;
+    color: crimson;
+    text-align: right;
+
+}
+.edit-text{
+    color: white;
+    font-family: 'Charmonman', cursive;
+    font-size: 0.7em;
+    text-shadow: 0 2px 5px black;
+    font-size: 1em;
+}
+#logo{
+    
+    background-color: aqua;
+}
+ #logo h1 {
+font-family: 'Indie Flower', cursive;
+}
+#logo h2 {
+    font-family: 'Charmonman', cursive;
+}
+#details a:link , #details a:visited{
+text-decoration: none;
+color: black;
+}
+#details a:hover{
+    text-decoration: underline;
+}
+#details a:active{
+    color: red;
+
+}

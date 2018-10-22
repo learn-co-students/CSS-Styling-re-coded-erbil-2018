@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie');
+/* This
+ is a comment! */
+
+
+ /* CSS Syntax: 
+ selector {
+     property: value;
+     property: value;
+ }
+ */
+
+ /* Type Sselector */
+
+ p { /* select all <p> */
+    font-size: 1em; /* 16px, ?pt, 100%, 1em*/
+    line-height: 2em; 
+ }
+ figcaption {
+     font-weight: normal;
+     font-size: 0.75em;
+     line-height: 1.5em;
+     font-family: Georgia, "Times New Roman", Times, serif;
+     font: normal 0.75em/1.5em  Georgia, "Times New Roman", Times, serif;
+     color: #777;
+     text-align: right;
+ }
+ /* Class Selector (applied to as many elments as you like) */
+ .milk-text {/* select elements with class attribute "milk-text" */
+    font: bold 2.6em "Elsie Swash Caps", cursive;
+    color: white;
+    text-shadow: 0 2px 3px #000;
+}
+
+/* ID Selector (applied to one uniqe element per page) */
+#logo { /*select elements with id="logo" */
+    background: aqua;
+}
+
+/* Desendent Selector */
+#logo h1{ /*selects <h1> if inside the id="logo" */
+font-family: "clicker Script", cursive; 
+}
+#logo h2{
+    font-family: "Elsie Swash Caps", cursive;
+}
+
+/* Psedue Selector */
+#details a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+#details a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+#details a:active {
+    color: #550000;
+}
